@@ -9,7 +9,6 @@ def test_area_circle():
 
 def test_random_joke():
     joke = pyjokes.get_joke()
-    
     # Check that the joke is a non-empty string
     assert isinstance(joke, str), "Joke should be a string"
     assert len(joke) > 0, "Joke should not be an empty string"
